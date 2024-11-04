@@ -39,9 +39,9 @@ public class Player : MonoBehaviour
         {
             newPosition.y = 0; // Stop moving after middle
         }
-        else if (newPosition.y < -5)
+        else if (newPosition.y < -8)
         {
-            newPosition.y = -5; // Stop moving from the bottom.
+            newPosition.y = -8; // Stop moving from the bottom.
         }
         
         // Wrap around the left and right edges
